@@ -3,3 +3,14 @@ public class HelloWorldInput {
         System.out.println("Hello Denis");
     }
 }
+
+// Однострочный коментарий
+
+
+/* Блочный коментарий
+ла
+ла
+ла
+*/
+
+/** Документация получается */
