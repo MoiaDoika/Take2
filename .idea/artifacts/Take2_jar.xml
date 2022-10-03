@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Take2:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Take2_jar</output-path>
+    <root id="archive" name="Take2.jar">
+      <element id="module-output" name="HW1" />
+    </root>
+  </artifact>
+</component>
