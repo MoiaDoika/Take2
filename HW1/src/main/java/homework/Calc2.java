@@ -13,15 +13,13 @@ public class Calc2 {
             numbers[i] = scanner.nextInt();//Заполняем массив нулевыми значениями
         }
        for (int i = 0; i < size; i++) {//заполняем из консоли
-          double average = 0;//создание переменной ответ
-            if (numbers.length > 0)//действие начинается если массив не пустой
-            {
-                double sum = 0;
-                for (int j = 0; j < numbers.length; j++) {
-                    sum += numbers[j];//вычисляем сумму всех элементов массива
-                }
-                average = sum / numbers.length;//сумму делим на количество элементов
-           }System.out.println("Answer: "+average);
+          double average;//создание переменной ответ
+           double sum = 0;
+           for (int number : numbers) {
+               sum += number;//вычисляем сумму всех элементов массива
+           }
+           average = sum / numbers.length;//сумму делим на количество элементов
+           System.out.println("Answer: "+average);
         }
     }
 }
