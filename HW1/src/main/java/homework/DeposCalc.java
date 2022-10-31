@@ -1,7 +1,7 @@
 package homework;
 
 import java.util.Arrays;
-
+//В данной программе мы прописали депозитный калькулятор
 public class DeposCalc {
     public static void main(String[] args) {//Передаем значения в аргументы (12тыс,7%,5лет)
         System.out.println("Deposit amount "+ args[0]);

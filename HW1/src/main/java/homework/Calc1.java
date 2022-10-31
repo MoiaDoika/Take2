@@ -1,6 +1,6 @@
 package homework;
 import java.util.Scanner;
-
+//В данной программе мы нашли средне арифметическое число из 2-ух чисел
 public class Calc1 {
 
     public static void main(String[] args) {

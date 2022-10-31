@@ -1,6 +1,6 @@
 package homework;
 import java.util.Scanner;
-
+//В данной программе мы должны найти средне арифметическое число из набора чисел
 public class Calc2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
